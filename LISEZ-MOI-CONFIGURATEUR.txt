@@ -1,0 +1,26 @@
+CONFIGURATEUR DU SITE — ECRIN WEB
+
+UTILISATION
+1. Décompresse le ZIP dans un dossier sur ton ordinateur.
+2. Double-clique sur configurer.html (Microsoft Edge ou Google Chrome recommandé).
+3. Clique sur « Choisir le dossier » et sélectionne le dossier décompressé du modèle.
+4. Dans l’aperçu, clique sur les textes pour les modifier. Utilise « Tester les liens » pour suivre les liens sans quitter l’éditeur. Les liens externes s’ouvrent dans un nouvel onglet. L’onglet « Liens » permet de modifier les destinations.
+5. Dans l’onglet « Photos », utilise « Remplacer cette image » pour conserver le nom et l’emplacement d’une image existante. Pour compléter une galerie, choisis « Accueil » ou « Station », clique sur « Ajouter des photos » et sélectionne une ou plusieurs images (JPG, PNG, WebP, GIF, AVIF ou SVG). Les nouvelles photos et les pages modifiées sont incluses dans le ZIP. Les boutons de saison permettent de vérifier les variantes saisonnières de l’aperçu et du site exporté.
+6. Dans l’onglet « Contenu », ajoute ou retire des appareils, règles, éléments d’inventaire, FAQ et tâches de checklist. Sur chaque page, tu peux aussi ajouter ou retirer des raccourcis. Les textes existants restent modifiables dans l’aperçu.
+7. Renseigne les informations de logement et de station dans « Infos ». Les textes anglais des nouveaux éléments sont facultatifs : saisis-les toi-même ou coche le consentement dans « Anglais » pour demander une traduction automatique. Les traductions restent corrigeables.
+8. Pour traduire automatiquement les textes éditoriaux modifiés dans l’aperçu, coche d’abord la case de consentement dans l’onglet « Anglais ». Attends le message de fin, puis vérifie et corrige les traductions. Les corrections anglaises saisies manuellement ne sont pas remplacées par une traduction automatique.
+9. Clique sur « Télécharger le ZIP complet ». Décompresse le ZIP obtenu pour récupérer index.html, logement.html, station.html, les styles, scripts, images, configuration.json et le configurateur.
+
+CONFIDENTIALITÉ ET CONNEXION
+- Le configurateur lit le dossier sélectionné dans le navigateur et fabrique le ZIP sur cet ordinateur. Les fichiers du site ne sont pas téléversés.
+- La traduction automatique est facultative et nécessite Internet. Après consentement, seuls les textes éditoriaux français modifiés admissibles sont envoyés à l’API publique de MyMemory pour recevoir une proposition de traduction française vers l’anglais. Les traductions restent modifiables dans l’onglet « Anglais ».
+- MyMemory indique une limite maximale de 500 octets par requête et un quota gratuit anonyme d’environ 5 000 caractères par jour. Le configurateur découpe automatiquement les textes trop longs.
+- Les conditions de MyMemory indiquent que les segments transmis peuvent être conservés par le service. N’inclus aucun nom, adresse, numéro de téléphone, adresse e-mail, lien, coordonnée géographique, mot de passe ou autre donnée privée dans un texte à traduire. Le configurateur bloque plusieurs formats courants de coordonnées et liens, mais cette détection ne peut pas garantir l’identification de toutes les informations privées.
+- Les liens externes et la traduction nécessitent Internet. L’édition, les fichiers locaux et la création du ZIP fonctionnent sur l’ordinateur.
+
+À VÉRIFIER AVANT LIVRAISON
+- Vérifie les trois pages en français et en anglais, ainsi que les saisons, les liens, horaires, contacts et consignes du logement.
+- Les photos d’exemple doivent être remplacées ou utilisées avec autorisation.
+- Les formulaires d’avis et de signalement ne transmettent rien tant qu’une adresse de service valide n’est pas configurée dans leurs actions.
+- Le fichier configuration.json peut contenir le mot de passe Wi-Fi. Ne partage le ZIP qu’avec les personnes autorisées.
+- Les anciens outils de développement Python/PowerShell ne sont pas nécessaires et ne sont pas ajoutés au ZIP livré.
